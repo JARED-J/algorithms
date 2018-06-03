@@ -3,14 +3,11 @@ const addTwoNumbers = require('../algorithms/addTwoNumbers');
 
 describe('addTwoNumbers()', function() {
     it('should add two numbers', function() {
-
         // ARRANGE
-        let x = 5;
-        let y = 1;
-        let sum1 = x + y;
+        let sum1 = 6;
 
         // ACT
-        let sum2 = addTwoNumbers(x, y);
+        let sum2 = addTwoNumbers(5, 1);
 
         // ASSERT
         expect(sum2).to.be.equal(sum1);
