@@ -18,7 +18,7 @@ describe('addTwoNumbers()', () => {
 });
 
 describe("noRepeat()", () => {
-    xit("Output should be a string", () => {
+    it("Output should be a string", () => {
         const arr = ["input"];
         const output = noRepeat(arr);
         expect(output).to.be.a("string");
@@ -27,7 +27,7 @@ describe("noRepeat()", () => {
         const output = noRepeat([]);
         expect(output).to.equal('');
     });
-    xit("Returns the string with the most occurances", () => {
+    it("Returns the string with the most occurances", () => {
         const arr = ["test", "hello", "world", "test", "mocha", "chai", "jasmine", "world", "test"];
         const output = noRepeat(arr);
         expect(output).to.equal("test");
