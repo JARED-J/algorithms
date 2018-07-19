@@ -1,1 +1,5 @@
 node_modules/
+
+# Files with unfinished algorithms
+algorithms/rotatedArray.js
+algorithms/pathFinder.js
